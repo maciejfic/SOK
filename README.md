@@ -3,8 +3,8 @@ System Obsługi Konferencji Instytutu Sterowania i Elektroniki Przemysłowej Pol
 
 # Używane narzędzia
 - Axure RP Pro - licencję można dostć tu: http://www.axure.com/edu
-- Dowolny program do diagramów, taki jak MS Visio 2013 z DreamSpark'a
-- Dokumenty piszemy w LaTeX'ie. Jakby ktoś potrzebował wprowadzenia, tytaj jest dobre: http://zetiis.iem.pw.edu.pl/?page_id=64
+- Dowolny program do diagramów, taki jak MS Visio 2013 z DreamSpark'a. Do repo najlepiej jakby wpadały pliki XML (lub inne pozwalające na odtworzenie) i PDF'y z wyeksportowanymi diagramami.
+- Dokumenty piszemy w LaTeX'ie. W repo lądują pliki *.tex. Jakby ktoś potrzebował wprowadzenia, tytaj jest dobre: http://zetiis.iem.pw.edu.pl/?page_id=64
 
 # Kilka zasad od kierownika
 - Po to mamy repo, żeby go używać. Staramy się pracować systematycznie i sumiennie

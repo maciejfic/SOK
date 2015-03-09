@@ -1,0 +1,3 @@
+# Z czym to siê je?
+W tym folderze znajduj¹ siê szablony plików wykorzystywanych w naszej pracy. Plik "wszystko.tar.gz" zawiera szablon pracy dyplomowej zajumany ze strony Elektrycznego (http://marie-www.ee.pw.edu.pl/~szewczyk/tex/zrodla.html). Nada siê dla nas idealnie. Proszê aby wszyscy zapoznali siê ze struktur¹ zawartych tam plików i siê do niej stosowali.
+Mi³o by by³o gdyby ka¿dy do³¹cza³ do swoich dokumentów preambu³y zawarte w folderze /SOK/Szablony dokumentów/Preambu³y, co pozwoli na zachowanie spójnego wygl¹du ca³oœci.
