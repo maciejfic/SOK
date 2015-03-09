@@ -1,5 +1,5 @@
 # SOK
-System Obsługi Konferencji Instytutu Sterowania i Elektroniki Przemysłowej Politechniki Warszawskiej
+System Obsługi Konferencji Naukowo-Dydaktycznej Instytutu Sterowania i Elektroniki Przemysłowej Politechniki Warszawskiej
 
 # Używane narzędzia
 - Axure RP Pro - licencję można dostć tu: http://www.axure.com/edu
