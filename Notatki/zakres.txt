@@ -1,0 +1,21 @@
+Poziomy dostępów oraz ewentualnie role.
+(Administrator, pracownik, rodzina) ?recenzent
+
+Opracowanie diagramów przepływu informacji.
+Jak wygląda tworzenie użytkownika, jak wygląda dodawanie rodziny przez użytkownika, jak wygląda proces akceptacji artykułu.
+Czyli opis procesów biznesowych. Logika biznesowa. Bez wchodzenia w szczegóły techniczne.
+
+Use casey.
+
+
+User stories?
+
+Makieta -Maciej F.
+
+Prezentacja w Power Poincie - dla kierownika przedmiotu
+
+Ogólny opis słownomuzyczny - na prezentację.
+
+Modele - czyli np. jakie pola są w opisie wycieczki, jakie pola są przy pracy, encje, schematy relacji.
+
+
