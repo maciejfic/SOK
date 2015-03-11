@@ -1,0 +1,67 @@
+Konferencja w McDonald's
+
+
+Trzy poziomy uprawnień:
+- Administrator (god mode)
+- Pracownik
+- Rodzina pracownika
+
+Admin tworzy konta dla pracowników.
+Pracownik tworzy konta dla członków rodziny.
+
+Trzy widoki:
+- konferencji
+- dyskusja
+- rozrywka (zakładka socjalna)
+
+
+
+
+KONFERENCJA DZIELI SIĘ NA WEWNĘTRZNĄ I ZEWNĘTRZNĄ:
+
+KONFERENCJA WEWNĘTRZNA:
+Proces dysusji (recenzji pracy):
+
+Aktorzy:
+- Admin
+- Autor pracy
+- Recenzent
+
+Stworzenie zbiorów specjalizacji(np. mikroprocesory, kwiatki, żelki)
+
+autor zgłasza pracę
+system losuje recenzenta z maksymalnie dopasowanymi tagami
+recenzent dostaje prace do oceny, akceptuje albo nie
+proces akceptacji pracy przez recenzenta, poprawki, dyskusja
+po akceptacji artykulu recenzenta kierownik dokonuje akceptacji koncowej i ustala termin
+
+
+KONFERENCJE ZEWNĘTRZNE (dyskusje luźne):
+
+Pracownik zgłasza temat ogólny (np. wniosek o fundusze na coś, zmiany w przedmiocie, itp itd.)
+Idzie od razu na publiczny dostęp.
+Jest możliwość administracji.
+
+CZĘŚĆ TURYSTYCZNA:
+
+Spis dostępnych wycieczek.
+
+W skład opisu wycieczki wchodzi:
+- Tytuł
+- Plan
+- Opis słowno muzyczny (np link yt)
+- Długość
+- Poziom trudności
+- Cena
+- Ilość zapisanych osób / wolnych miejsc?
+
+Na wycieczki realizowane są zapisy na zasadzie klinięcia "wezme udział" do tego zapisanie dodatkowych osob z rodziny (zapisujemy na wycieczke np matke i syna)
+Informacje:
+- Pomoc lekarska
+- Oferta żywieniowa
+- Transport
+- Opis miasta
+
+
+
+
