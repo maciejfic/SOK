@@ -13,3 +13,11 @@ System Obsługi Konferencji Naukowo-Dydaktycznej Instytutu Sterowania i Elektron
 - SPISUJEMY WSZYSTKO co może być pomocne. Spisujemy maksymalnie dużo na spotkaniach. Możemy polecieć na ostro i nagrywać spotkania dyktafonem, jeśli ktoś takowe urządzenie posiada.
 - Jeżeli ktoś ma ochotę mieć w głębokim poważaniu całe to przedsięwzięcie, będę wdzięczny jeżeli poinformuje grupę o tym fakcie. Jeżeli ktoś stwierdzi, ze nie ma czasu, ochoty czy sił to niech da znać, nie będzie dostawał zadań i nie będzie blokował prac.
 - Trzeba się ustawić na jakieś spotkanie żeby ustalić jak kto to widzi
+
+# Skład zespołu
+- Katarzyna G.
+- Maciej F.
+- Piotr B.
+- Piotr B.
+- Piotr G.
+
