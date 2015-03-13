@@ -63,26 +63,22 @@
     %koniec formatowania spisu treści i nagłówków
 
     \tableofcontents    %spis treści
-    \newpage
+    %\newpage
 
     %\input{wykaz_skrotow.tex}
     %\newpage
 
     %spis rysunków i~tablic
     %format spisu treści dotyczy tylko tych spisów, które są poniżej
-    %\hypersetup{linkcolor=black}
-    %\renewcommand{\cftparskip}{3pt}
-    %\clearpage
-    %\renewcommand{\cftloftitlefont}{\Large\bfseries\sffamily}
-    %\listoffigures
-    %\addcontentsline{toc}{section}{Spis rysunków}
-    %\newpage
-    %\renewcommand{\cftlottitlefont}{\Large\bfseries\sffamily}
-    %\listoftables
+    \hypersetup{linkcolor=black}
+    \renewcommand{\cftparskip}{3pt}
+    \renewcommand{\cftloftitlefont}{\Large\bfseries\sffamily}
+    \listoffigures
+    \addcontentsline{toc}{section}{Spis rysunków}
     %\addcontentsline{toc}{section}{Spis tablic}
-    %\newpage
+    \newpage
     %powrót do czerwonego koloru dla dalszych odnośników (spis literatury, przy włączonym pokazywaniu numerów stron, do których odnoszą się poszczególne pozycje)
-    \hypersetup{linkcolor=red}
+    \hypersetup{linkcolor=black}
     %koniec spisu rysunków i~tablic
 
     %przeniesienie wartości licznika stron na strony numerowane innym stylem (arabic)
