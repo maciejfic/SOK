@@ -1,0 +1,17 @@
+Dwa dodatkowe widoki:
+-Widok aktualnoœci
+-Archiwum
+
+
+#Co jest do zrobienia??
+- Makieta (Maciej F.)
+- Diagramy sekwecji (Piotr B³.)
+	+ Proces dodawania i recenzowania artyku³u
+	+ Proces tworzenia u¿ytkownika
+	+ Proces dodawania rodziny
+- Diagram klas z opisem (Wojciech D.)
+- User stories (Piotr Bê.)
+- Statut projektu, wartoœci s³ownikowe, spis potrzebnych wartoœci sta³ych[specjalizacje itp.] (Piotr G.)
+
+
+#DEADLINE: Niedziela, 22.03.2015
