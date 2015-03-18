@@ -1,0 +1,149 @@
+﻿body {
+  margin:0px;
+  background-image:none;
+  position:static;
+  left:auto;
+  width:786px;
+  margin-left:0;
+  margin-right:0;
+  text-align:left;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u0 {
+  position:absolute;
+  left:280px;
+  top:115px;
+  width:200px;
+  height:25px;
+}
+#u0_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:200px;
+  height:25px;
+  font-family:'Arial Normalny', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  color:#000000;
+  text-align:left;
+}
+#u1 {
+  position:absolute;
+  left:380px;
+  top:185px;
+  width:100px;
+  height:25px;
+}
+#u1_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:100px;
+  height:25px;
+  font-family:'Arial Normalny', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  color:#000000;
+  text-align:center;
+}
+#u2 {
+  position:absolute;
+  left:280px;
+  top:150px;
+  width:200px;
+  height:25px;
+}
+#u2_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:200px;
+  height:25px;
+  font-family:'Arial Normalny', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  color:#000000;
+  text-align:left;
+}
+#u3 {
+  position:absolute;
+  left:490px;
+  top:120px;
+  width:170px;
+  height:16px;
+  color:#FF0000;
+}
+#u3_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:170px;
+  height:16px;
+}
+#u4 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:170px;
+  word-wrap:break-word;
+}
+#u6 {
+  position:absolute;
+  left:56px;
+  top:318px;
+  width:730px;
+  height:10px;
+}
+#u6_start {
+  position:absolute;
+  left:0px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u6_end {
+  position:absolute;
+  left:713px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u6_line {
+  position:absolute;
+  left:0px;
+  top:5px;
+  width:730px;
+  height:1px;
+}
+#u7 {
+  position:absolute;
+  left:264px;
+  top:328px;
+  width:313px;
+  height:32px;
+  text-align:center;
+}
+#u7_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:313px;
+  height:32px;
+}
+#u8 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:313px;
+  white-space:nowrap;
+}
