@@ -5,6 +5,7 @@ System Obsługi Konferencji Naukowo-Dydaktycznej Instytutu Sterowania i Elektron
 - Axure RP Pro - licencję można dostć tu: http://www.axure.com/edu
 - Dowolny program do diagramów, taki jak MS Visio 2013 z DreamSpark'a. Do repo najlepiej jakby wpadały pliki XML (lub inne pozwalające na odtworzenie) i PDF'y z wyeksportowanymi diagramami.
 - Dokumenty piszemy w LaTeX'ie. W repo lądują pliki *.tex. Jakby ktoś potrzebował wprowadzenia, tytaj jest dobre: http://zetiis.iem.pw.edu.pl/?page_id=64
+- Diagram klas został stworzony w UML Designer http://www.umldesigner.org/download/index.html
 
 # Kilka zasad od kierownika
 - Po to mamy repo, żeby go używać. Staramy się pracować systematycznie i sumiennie
