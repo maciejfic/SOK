@@ -1,0 +1,29 @@
+Pracownicy Instytutu Sterowania i Elektroniki Przemysłowej Politechniki Warszawskiej każdego roku organizują konferencję, na której przedstawiają swoje prace, dlatego potrzebują zaawansowanego systemu, który skróci czas pświęcony na tworzenie artykułów, recenzowanie artykułów współpracowników...
+
+1. Cel projektu
+	- Zinformatyzowanie przebiegu konferencji 
+		- automatyczne tworzenie harmonogramu konferencji
+		- skrócenie poświęconego czasu na tworzenie i recenzję artykułów
+		- zautomatyzowany proces przydzielania recenzentów do artykułow
+		- przygotowanie ciekawszych wycieczek dla rodziny pracowników instytutu
+		- stworzenie intuicyjnego wyglądu aplikacji dla starszych osób
+
+2. Zasoby
+	-
+
+3. Zagrpożenia
+	- skomplikowany proces recenzowania artykułów
+
+
+4. Warunki satysfakcji
+	- pozytywne opinie na temat przebiegu procesu recenzji i tworzenia artykułów
+	- 
+
+5. Produkty
+	- materiały informacyjne/szkoleniowe dla pracowników instytutu
+	- aplikacja internertowa
+
+Wartości słownikowe
+
+Spis wartości stałych
+	- specjalizacje
