@@ -1,0 +1,31 @@
+#wersja alpha
+
+Jako pracownik zakazu chcę móc zgłosić swoją pracę do udziału w konferencji. 
+
+Jako zgłaszający pracę chcę znać uwagi recenzenta który zwrócił mi ją do poprawy tak abym mógł wyprowadzić poprawki. 
+
+Jako zgłaszający pracę chcę mieć możliwość odpowiedzi na przedstawione mi uwagi jeżeli praca jest zwracana mi do poprawki. 
+
+Jako zgłaszający i oceniający pracę chcemy mieć możliwość dwukierunkowej komunikacji odnośne danej pracy. 
+
+Jako zgłaszający temat pracy do akceptacji przez administratora chcę znać powód jego odrzucenia. 
+
+Jako użytkownik systemu chcę móc anonimowo głosować na najciekawszą pracę. 
+
+Jako użytkownik systemu chcę zobaczyć ranking najciekawszych prac. 
+
+Jako użytkownik systemu chcę łatwo uzyskać podstawowe informacje organizacyjne o bieżącej konferencji ( kiedy, gdzie ) 
+
+Jako administrator chcę zobaczyć listę kont w systemie. 
+
+Jako administrator chcę założyć konto w systemie. 
+
+Jako administrator chcę edytować konto w systemie. 
+
+Jako administrator chcę wygenerować  hasło dla użytkownika.  
+
+Jako administrator chcę zamknąć konto użytkownika.  
+
+Jako administrator chcę usunąć konto użytkownika. 
+
+Jako użytkownik chcę poprosić o wygenerowanie dla mnie nowego hasła ponieważ utraciłem obecne.
