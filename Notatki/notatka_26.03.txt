@@ -1,0 +1,152 @@
+Spotkanie z dnia 26.03.2015 r. (czwartek)
+
+Ważne spostrzeżenia:
+
+System dotyczy obsługi konferencjii naukowo-dydaktycznych a nie tylko naukowych, co jest niezmiernie istotne.
+
+Jeden administrator merytoryczny.
+
+Dyskusja dotycząca artykułu jest prywatna, administrator widzi jej postęp (ilość odbić itp).
+
+Konta zakładamy na zaproszenie.
+
+Propozycje dydaktyczne (tzw. tematy luźne) możliwe do publicznej dyskusji - każdy może zapoznać się i zamieścić swój komentarz.
+
+Co roku będą tworzone nowe konta i wysyłane zaproszenia.
+
+
+Wycieczki:
+
+W systemie występuje oddzielna rola administracyjna do zarządzania wycieczkami - przyjmuje ją osoba, która była w miejscu konferencji i za lokalne realia i w związku z tym tworzy lub współtworzy plany wycieczek.
+
+Administrator musi zaakceptować program wycieczki.
+
+
+Recenzje:
+
+Lista recenzentów jest tajna.
+
+Recenzentami są najczęściej osboy z innego zakładu.
+Najlepiej żeby recenzenci wiedzieli jak najmniej na temat konferencji, tak żeby nie domyślali się czyje prace recenzują.
+
+Dla recenzentów powstaje więc oddzielny typ konta - recenzent.
+
+Rejestracja recenzentów odbywa się co roku, za pomocą linku zapraszającego.
+
+Recenzenci nie biorą udziału w konferencji.
+
+Trzeba przypisywać funkcjonalność do ludzi - czyli tagi.
+
+
+Formatka artykułu - artykuł napisany na jakiś przykładowy temat, plik zawiera poprawne formatowanie i układ na którym powinni się wzorować autorzy.
+
+Link do formatki na stronie.
+
+Przy składaniu artykułu w zakładce artykuł wymagania co do artykułów.
+
+
+Luźne dyskusje:
+
+Luźne dyskusje to ważna część strony - oddzielna zakładka.
+Na tematy które będą przedyskutowywane podczas konferencji trzeba zarezerwować odpowiedni czas.
+Tematy luźne - to tematy dydaktyczne!
+
+
+
+Artykuły:
+
+Widoczna dla uczestników lista artykułów zrecenzowanych i zaakceptowanych.
+
+Recenzent widzi prace tylko te, które recenzuje.
+
+Artykuły spływają do recenzji na przełomie luty-marzec.
+
+
+
+Pracownik:
+
+Wykreślamy z UseCase pracownika zarządzanie panelem wycieczek.
+Pracownik może jedynie umieszczać komentarze do już istniejących wyczieczek.
+
+Pracownik tylko dodaje artykuł - nie może być jednocześnie recenzentem.
+
+
+
+Rodziny:
+
+Kilka kont dla jedej rodziny.
+
+Do jednego konta może być przypisane kilka osób.
+
+Np dwa przykładowe konta dla rodziny jednego pracownika:
+
+Konto żona: przypisane 2 osoby - żona i dziecko.
+Konto brat: przypisana 1 osoba - brat.
+
+Brat jest autonomiczny względem żony i dziecka - nie muszą spędzać razem czasu (jechać na tę samą wycieczkę)
+
+Członek rodziny (konto) widzi szczegóły wycieczek, może zgłosić chęć udziału w wycieczce.
+
+Rodzina ma dostęp do harmonogramu konferencji, opisu części formalnej, aktualności.
+
+
+
+Rozrywka:
+
+Na ogólnej stronie miejscowości powinna być mapa.
+
+Do wycieczek można zgłaszać komentarze ( w widoku szczegółowym wycieczki )
+
+Są dwa rodzaje wycieczek - takie z zapisami podczas konferencji oraz jedna wycieczka odbywająca się w trakcie powrotu z konferencji do warszawy (np. pojechanie dłuższą trasą żeby obejrzeć coś ciekawego) - zapisy na tę drugą są luźne, często uczestniczy zmieniają zadnie w ostatniej chwili np. ze względu na długość konferencji.
+
+
+Ciekawe zabytki do zobaczenia:
+
+Oprócz pełnych wycieczek zorganizowanych w miejscu konferencji są też mniejsze atrakcje, które można zwiedzać grupowo np. starówka, zamek itp itd. - na takie atrakcje można organizować wyjścia grupowe na które też będą zapisy - lista chętnych. Trzeba zrobić jakiś opis takiego wyjścia - o co chodzi, czy może ktoś oprowadzić, koszt.
+
+W systemie spis placówek medycznych i oferta gastronomiczna.
+
+Artykuły:
+
+Artykuły można składać dowolne - nie potrzeba akceptacji tematu przez administratora - do usunięcia z diagramu.
+
+Występują dwie wersje artykułu - pełna i taka bez autora itp - danych umożliwiających identyfikację. Do oceny autor daje wersję okrojoną.
+
+(czy w takim razie powinniśmy udostępnić miejsce na późniejszą wersję pełną?)
+
+Administrator widzi postępy w relacji pracownik - recenzent - widzi, że artykuł jest zgłoszony, widzi także odbijanie artykułu pomiędzy nimi.
+Administrator może ingerować w proces recenzji - samemu zatwierdzić artykuł i zamieścić komentarz.
+
+szef konferencji - ? kierownik?
+
+odpowiedź recenzeta - predefiniowana - słownik kryteriów oceny ("może być", "do poprawy", itp.)
+
+
+Rozpoznanie:
+
+Przed uruchomieniem części właściwej system powinien udostępniać narzędzia pomocne przy wyborze miejsca konferencji i ustalaniu wstępnych szczegółów.
+
+Potrzebna jest lista potencjalnych miejsc zawierająca ich opis - efekty rozpoznania - np. baza hotelowa, wyposażenie, ciekawe miejsca w mieście.
+
+Możliwość dyskusji na temat potencjalnych miejsc.
+
+Dostęp dla pracowników.
+
+
+Inne:
+
+Dostęp także dla gości honorowych, co roku wysyłane zaproszenia.
+
+Pracownik emerytowany to dalej pracownik.
+
+Do każdego konta powinno być pole opisujące jego typ - doktorant, pracownik, pracownik emerytowany.
+
+
+
+
+
+
+
+
+
+
