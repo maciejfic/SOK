@@ -1,28 +1,37 @@
 Spotkanie z dnia 26.03.2015 r. (czwartek)
 
-SPOSTRZEŻENIA:
+SPIS TREŚCI:
+  I.    SPOSTRZEŻENIA
+  II.   CZĘŚĆ ROZRYWKOWA - WYCIECZKI
+  III.  ARTYKUŁY - RECENZJE
+  IV.   DYSKUSJE DYDAKTYCZNE - LUŹNE
+  V.    RODZINY - KONTA
+  VI.   ROZPOZNANIE PRZED KONFERENCJĄ
+
+
+
+
+
+  I. SPOSTRZEŻENIA:
 
 System dotyczy obsługi konferencjii naukowo-dydaktycznych a nie tylko naukowych, co jest niezmiernie istotne.
 
 Jeden administrator merytoryczny.
 
 Konta zakładamy na zaproszenie.
-
 Co roku będą tworzone nowe konta i wysyłane zaproszenia.
 
 Dostęp także dla gości honorowych, co roku wysyłane zaproszenia.
-
-Pracownik emerytowany to dalej pracownik.
-
-Do każdego konta powinno być pole opisujące jego typ - doktorant, pracownik, pracownik emerytowany.
+Pracownik emerytowany to dalej pracownik - gość honorowy.
+Do każdego konta powinno być pole opisujące jego typ - doktorant, recenzent, pracownik, pracownik emerytowany.
 
 
 
 
 
+  II. CZĘŚĆ ROZRYWKOWA - WYCIECZKI:
 
-CZĘŚĆ ROZRYWKOWA - WYCIECZKI:
-
+Nowa rola - zarządca wycieczek:
 TODO: W systemie występuje oddzielna rola administracyjna do zarządzania wycieczkami - przyjmuje ją osoba, która była w miejscu konferencji i za lokalne realia i w związku z tym tworzy lub współtworzy plany wycieczek.
 
 Administrator musi zaakceptować program wycieczki.
@@ -45,97 +54,83 @@ Pracownik może jedynie umieszczać komentarze do już istniejących wyczieczek.
 
 
 
+  III. ARTYKUŁY - RECENZJE:
 
-ARTYKUŁY - RECENZJE:
-
-Lista recenzentów jest tajna.
-
-Recenzentami są najczęściej osboy z innego zakładu.
-Najlepiej żeby recenzenci wiedzieli jak najmniej na temat konferencji, tak żeby nie domyślali się czyje prace recenzują.
-
-Dla recenzentów powstaje więc oddzielny typ konta - recenzent.
-
-Rejestracja recenzentów odbywa się co roku, za pomocą linku zapraszającego.
-
-Recenzenci nie biorą udziału w konferencji.
-
-Trzeba przypisywać funkcjonalność do ludzi - czyli tagi.
-
-Formatka artykułu - artykuł napisany na jakiś przykładowy temat, plik zawiera poprawne formatowanie i układ na którym powinni się wzorować autorzy.
-
-Link do formatki na stronie.
-
-Przy składaniu artykułu w zakładce artykuł wymagania co do artykułów.
-
-TODO: Artykuły można składać dowolne - nie potrzeba akceptacji tematu przez administratora - do usunięcia z diagramu.
-
-Występują dwie wersje artykułu - pełna i taka bez autora itp - danych umożliwiających identyfikację. Do oceny autor daje wersję okrojoną.
-
-(czy w takim razie powinniśmy udostępnić miejsce na późniejszą wersję pełną?)
+W systemie powstaje oddzielny typ konta - recenzent. Lista recenzentów powinna być całkowicie tajna dla pozostałych kont w systemie. (zapewnie oprócz adminstratora...)
+Recenzenci to najczęściej osoby z innego zakładu.
+Zalecane jest aby recenzenci otrzymywali jak najmniej informacji na temat konferencji, nie powinni się domyślać czyje prace recenzują.
+Recenzenci nie biorą także udziału w konferencji - ich rola ogranicza się tylko do recenzji.
+Nie mają więc dostępu do żadnych części systemu poza procesem recenzji.
+Rejestracja recenezntów odbywa się podobnie jak pracowników czyli każdego roku przebiega od nowa i realizowana jest za pomocą linku zapraszającego.
+Recenzenci widzą tylko te prace, które recenzują.
 
 Administrator widzi postępy w relacji pracownik - recenzent - widzi, że artykuł jest zgłoszony, widzi także odbijanie artykułu pomiędzy nimi.
 Administrator może ingerować w proces recenzji - samemu zatwierdzić artykuł i zamieścić komentarz.
+W innym miejscu notatki pojawiło się stwierdzenie, że dyskusja pomiędzy pracownikiem a recenzentem jest prywatna. Kłóci się to z możliwością sensownej ingerencji administatora w proces recenzji. (Jak ma zamieścić komentarz jak nie widzi poprzednich?)
 
-szef konferencji - ? kierownik?
 
-odpowiedź recenzeta - predefiniowana - słownik kryteriów oceny ("może być", "do poprawy", itp.)
+Występują dwie wersje artykułu - pełna i taka bez autora itp. (danych umożliwiających identyfikację osoby). Do oceny autor daje wersję okrojoną.
+(czy w takim razie powinniśmy udostępnić miejsce na późniejszą wersję pełną?)
 
-Widoczna dla uczestników lista artykułów zrecenzowanych i zaakceptowanych.
-
-Recenzent widzi prace tylko te, które recenzuje.
-
-Artykuły spływają do recenzji na przełomie luty-marzec.
 
 Pracownik tylko dodaje artykuł - nie może być jednocześnie recenzentem.
 
-Dyskusja dotycząca artykułu jest prywatna, administrator widzi jej postęp (ilość odbić itp).
+Trzeba przypisywać funkcjonalność do ludzi - czyli tagi - to już mamy.
+
+Nowe pojęcie: formatka artykułu - artykuł napisany na jakiś przykładowy temat, plik zawiera poprawne formatowanie i układ na którym powinni się wzorować autorzy.
+Link do formatki pownien być umieszczony na stronie (tylko dla zalogowanych?)
+Przy składaniu artykułu w zakładce artykuł powinny wyświetlać się wymagania co do artykułów. (liczbas stron itp, zgodność z formatką więc link do formatki powinien być też tam.)
+
+TODO: Artykuły można składać dowolne - nie potrzeba akceptacji tematu przez administratora - do usunięcia z diagramu.
+
+Ogólna odpowiedź recenzenta powinna być predefiniowana. Powstaje więc potrzeba stworzenia słownika kryteriów oceny. (czyli np. "może być", "do poprawy", itp.)
+Poza ogólną odpowiedzią recenzent oczywiście przesyła swój komentarz który jest podstawą dyskusji.
+
+Pracownicy mają dostęp do listy artykułów już zrecenzowanych i zaakceptowanych. Nie widzą więc artykułów zgłoszonych do i w trakcie recenzowania.
+
+Artykuły spływają do recenzji na przełomie luty-marzec.
 
 
 
 
-DYSKUSJE DYDAKTYCZNE - LUŹNE:
 
-Luźne dyskusje to ważna część strony - oddzielna zakładka.
-Na tematy które będą przedyskutowywane podczas konferencji trzeba zarezerwować odpowiedni czas.
-Tematy luźne - to tematy dydaktyczne!
+  IV. DYSKUSJE DYDAKTYCZNE - LUŹNE:
 
-Propozycje dydaktyczne (tzw. tematy luźne) możliwe do publicznej dyskusji - każdy może zapoznać się i zamieścić swój komentarz.
-
-
+Dyskusje luźne w finalnej wersji systemu i w następnych dokumentach powinny być określane mianem dyskusji dydaktycznych.
+Dyskusje dydaktyczne to ważna część strony powinna być przewidziana na nią oddzielna zakładka.
+Na tematy które będą przedyskutowywane podczas konferencji trzeba zarezerwować odpowiedni czas w harmonogramie - być może powinny znaleźć się pola na określnie czy dany temat będzie dyskutowany podczas konferencji i ile czasu przewiduje się na taką dyskusję.
+Propozycje dydaktyczne będą możliwe do publicznej dyskusji - każdy może zapoznać się i zamieścić swój komentarz. (To znaczy, każdy pracownik, zgodnie z wcześniejszymi wnioskami konta rodzinne i konta recenzentów nie mają dostępu do tej części portalu.)
 
 
 
 
 
-RODZINY - KONTA:
+  V. RODZINY - KONTA:
 
-Kilka kont dla jedej rodziny.
-
-Do jednego konta może być przypisane kilka osób.
+Na jednego pracownika może przypadać kilka kont rodzinnych.
+Jednocześnie do jednego konta może być przypisane kilka osób w sytuacji gdy nie ma sesnu tworzyć dla nich oddzielnych kont.
 
 Np dwa przykładowe konta dla rodziny jednego pracownika:
+  Konto żona: przypisane 2 osoby - żona i dziecko.
+  Konto brat: przypisana 1 osoba - brat.
 
-Konto żona: przypisane 2 osoby - żona i dziecko.
-Konto brat: przypisana 1 osoba - brat.
+W przykładzie brat jest autonomiczny względem żony i dziecka - nie muszą spędzać razem czasu (jechać na tę samą wycieczkę).
 
-Brat jest autonomiczny względem żony i dziecka - nie muszą spędzać razem czasu (jechać na tę samą wycieczkę)
-
-Członek rodziny (konto) widzi szczegóły wycieczek, może zgłosić chęć udziału w wycieczce.
-
-Rodzina ma dostęp do harmonogramu konferencji, opisu części formalnej, aktualności.
-
-
-
-
+Konto członka rodziny ma dostęp do:
+  - listy i szczegółów wycieczek
+  - zapisania się na wycieczkę
+  - opisu części formalnej konferencji (podstawowych informacji)
+  - harmonogramu konferencji
+  - aktualności
 
 
 
-ROZPOZNANIE PRZED KONFERENCJĄ:
 
-Przed uruchomieniem części właściwej system powinien udostępniać narzędzia pomocne przy wyborze miejsca konferencji i ustalaniu wstępnych szczegółów.
 
-Potrzebna jest lista potencjalnych miejsc zawierająca ich opis - efekty rozpoznania - np. baza hotelowa, wyposażenie, ciekawe miejsca w mieście.
+  VI. ROZPOZNANIE PRZED KONFERENCJĄ:
 
-Możliwość dyskusji na temat potencjalnych miejsc.
-
-Dostęp dla pracowników.
+Przed uruchomieniem właściwiej części konferencyjnej system powinien udostępniać narzędzie pomocne przy rozważaniu potencjalnych miejsc konferencji i ustaleń wstępnych.
+Powinna istnieć możliwość stworzenia listy potencjalnych miejsc, do każdego miejsca przypisać ogólny opis oraz informacje szczegółowe, które nie powinny być mocno precyzowane. Będą to na przykład wyniki rozpoznania bazy hotelowej, możliwości logistycznych itp. ogólnie określające atrakcyjność potencjalnego miejsca.
+Powinna być udostępniona możliwość dyskusji nad poszczególnymi propozycjami i zamieszczania swoich opinni.
+Proponuję formę forum lub komentarzy pod każdą z propozycji oraz prostą metodę głosowania na poszczególne miejsca.
+Dostęp do opisywanej części systemu powinien być możliwy dla pracowników.
