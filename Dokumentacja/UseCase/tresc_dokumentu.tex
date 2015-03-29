@@ -12,14 +12,22 @@ Niniejszy dokument powstał w celu przedstawienia wszystkich poziomów uprawnie�
   \item \textit{pracownik.jpg} - wyeksportowany dokument przypadków użycia użytkownika PRACOWNIK
   \item \textit{rodzina.vsdx} - dokument przypadków użycia użytkownika RODZINA PRACOWNIKA (plik programu Microsoft Visio 2013)
   \item \textit{rodzina.jpg} - wyeksportowany dokument przypadków użycia użytkownika RODZINA PRACOWNIKA 
+  \item \textit{rodzina.vsdx} - dokument przypadków użycia użytkownika RODZINA PRACOWNIKA (plik programu Microsoft Visio 2013)
+  \item \textit{rodzina.jpg} - wyeksportowany dokument przypadków użycia użytkownika RODZINA PRACOWNIKA 
+  \item \textit{recenzent.vsdx} - dokument przypadków użycia użytkownika RECENZENT (plik programu Microsoft Visio 2013)
+  \item \textit{recenzent.jpg} - wyeksportowany dokument przypadków użycia użytkownika RECENZENT 
+  \item \textit{zarzadcawycieczek.vsdx} - dokument przypadków użycia roli ZARZĄDCA WYCIECZEK (plik programu Microsoft Visio 2013)
+  \item \textit{zarzadcawycieczek.jpg} - wyeksportowany dokument przypadków użycia roli ZARZĄDCA WYCIECZEK
 \end{itemize}
 
 \section{Poziomy uprawnień}
 
-W systemie, zgodnie z wstępnymi ustaleniami, zostaną zaimplementowane 3 poziomy uprawnień. \newline
+W systemie, zgodnie z wstępnymi ustaleniami, zostanie zaimplementowane 5 poziomów uprawnień. \newline
 Pierwszą grupę (najprawdopodobniej jednoosobową) stanowili będą użytkownicy o poziomie uprawnień ADMINISTRATOR SYSTEMU, jest to grupa o prawach nadrzędnych, będzie widziała co się dzieje w całym systemie. Do członków tej grupy należało będzie tworzenie konferencji, zarządzanie nią, dodawanie kont pracowników i inne akcje, o czym później. \newline
-Druga grupa to użytkownicy o poziomie uprawnień PRACOWNIK, pracownik otrzyma swoje konto od administratora systemu po utrzednim zgłoszeniu takiej chęci. Pracownik będzie mógł dodawać konto swojej rodzinie, dodać temat do dyskusji do kalendarza konferencji itd. \newline
-Ostatnia, trzecia grupa to RODZINA PRACOWNIKA, jak sama nazwa wskazuje będzie to konto które będzie przysługiwało kilku osobom i tu krótkie wyjaśnienie. Pracownik najczęściej do konta rodzinnego doda żonę lub męża i ewentualnie dzieci które w większości nie będą najprawdopodobniej umiały posługiwać się systemem z powodu swojego młodzięczego wieku, dlatego do konta rodzina pracownika będzie można przypisać więcej niż jedną osobę, oczywiście pracownik będzie mógł dodać kilka kont typu rodzina pracownika, co może być przydatne jeżeli na przykład poza żoną i dziećmi będzie chciał zaprosić kolegę, lub siostrę na wyjazd. Czyli podsumowując, do jednego konta typu rodzina pracownika będzie można dodać kilka fizycznych osób. Konto to będzie miało dostęp tylko do części krajoznawczo turystycznej, innych nie będzie widział.
+Druga grupa to użytkownicy o poziomie uprawnień PRACOWNIK, pracownik otrzyma swoje konto od administratora systemu. Pracownik będzie mógł dodawać konto swojej rodzinie, dodać temat do dyskusji do kalendarza konferencji itd. \newline
+Do obu powyższych typów kont będzie można dodać rolę ZARZĄDCA WYCIECZEK, będzie to osoba odpowiedzialna za zarządzanie wycieczkami w miejscu gdzie będzie odbywać się konferencja, osoba może zostać wybrana do pełnienia takiej roli na przykład ze względu na to że kiedyś już była w miejscu w którym odbywa się bieżąca konferencja i jest w stanie przedstawić ciekawe propozycje spędzania wolnego czasu. \newline
+Trzecia grupa to RODZINA PRACOWNIKA, jak sama nazwa wskazuje będzie to konto które będzie przysługiwało kilku osobom i tu krótkie wyjaśnienie. Pracownik najczęściej do konta rodzinnego doda żonę lub męża i ewentualnie dzieci które w większości nie będą najprawdopodobniej umiały posługiwać się systemem z powodu swojego młodzięczego wieku, dlatego do konta rodzina pracownika będzie można przypisać więcej niż jedną osobę, oczywiście pracownik będzie mógł dodać kilka kont typu rodzina pracownika, co może być przydatne jeżeli na przykład poza żoną i dziećmi będzie chciał zaprosić kolegę, lub siostrę na wyjazd. Czyli podsumowując, do jednego konta typu rodzina pracownika będzie można dodać kilka fizycznych osób. \newline
+Ostatni typ użytkownika systemu to RECENZENT, będzie to osoba której jedenym zadaniem będzie recenzowanie artykułów zgłaszanych przez uczestników konferencji, będzie to osoba spoza konferencji, nie będzie brała w niej udziału. Ważne jest aby recenzent nie wiedział nic o osobie której artykuł recenzuje.
 
 \section{Przypadki użycia}
 
@@ -35,12 +43,12 @@ Poniżej zostaną przedstawione wstępnie przygotowane diagramy przypadków uży
     \label{fig:administrator}
 \end{figure}
 
-Administrator będzie pełnił rolę nadzorczą nad całym systemem. Po zalogowaniu do konta zostanie przeniesiony do panelu startowego z którego będzie mógł dodać konferencję i/lub wybrać istniejącą konferencję z listy rozwijanej. Wtedy zostanie przeniesiony do panelu aktualności wybranej konferencji, w którym będzie miał możliwość edycji i publikacji treści. \newline
-Stąd będzie mógł się udać na przykład do panelu zarządzania gdzie będzie mógł przydzielać konta pracownikom. zmieniać swoje dane teleadresowe i tym podobne. \newline
-Administrator będzie zarządzał również wartościami słownikowymi systemu, czyli na przykład słownikiem możliwych specjalizacji pracowników, który to słownik będzie służył algorytmowi doboru recenzenta do artykułu. \newline
-W panelu wycieczek administrator będzie mógł akceptować/odrzucać pomysły wycieczek dodawanych przez innych użytkowników, będzie mógł też dodać swoje propozycje. jakiś czas przed rozpoczęciem konferencji administrator będzie musiał zadecydować które wycieczki się odbędą, a które nie (na przykład z powodu małej ilości chętnych). \newline
-Administrator będzie zarządzał również przebiegiem samej konferencji. Po pierwsze do niego będą wpadały tematy artykułów proponowane przez pracowników w celu ich akceptacji. Po drugie administrator będzie zarządzał kalendarzem konferencji tj. będzie planował na osi czasu wystąpienia poszczególnych prelegentów i ustalał agendę konferencji.
-
+Administrator będzie pełnił rolę nadzorczą nad całym systemem. Administrator po pierwsze ma możliwość zarządzania kontami użytkowników, co roku będzie zgłaszał listę pracowników do udziału konferencji, a system za pomocą wiadomości e-mail prześle do zaproszonych wiadomość ze specjalnie spreparowanym linkiem referencyjnym który przeniesie go do systemu. Rolą administratora będzie również dodawanie listy recenzentów z której system będzie przydzielał osoby do recenzowania artykułów napisanych przez pracowników.\newline
+Administrator będzie zarządzał wartościami słownikowymi systemu, czyli na przykład słownikiem możliwych specjalizacji pracowników i recenzentów, który to słownik będzie służył algorytmowi doboru recenzenta do artykułu. Również typów kont pracowniczych (na przykład: doktorant, pracownik emerytowany itp.), a także słownika kryteriów oceny (na przykład: do poprawy, może być). \newline
+W panelu wycieczek administrator będzie mógł akceptować/odrzucać pomysły wycieczek dodawanych przez zarządcę wycieczek, od momentu akceptacji wycieczki przez administratora jest ona widoczna przez innych uczestników konferencji, wcześniej nie. \newline
+Administrator będzie zarządzał również przebiegiem samej konferencji. Będzie zarządzał kalendarzem konferencji tj. planował na osi czasu wystąpienia poszczególnych prelegentów i ustalał agendę konferencji. Będzie miał prawo odgórnej akceptacji artykułów, nawet takich które mają status ``do poprawy''. \newline
+Administrator będzie wybierał miejsce konferencji, propozycje zgłoszone przez pracowników będą również przez nich oceniane po czym administrator podejmie decyzję które miejsce wybrać. Administrator będzie uzupełniał dane o konferencji na stronie startowej. \newline
+Kolejnym zadaniem będzie zarządzanie panelem aktualności, gdzie będzie mógł dodać ważne inforamcje na temat konferencji (na przykład że konferencja będzie tydzień później, że został zmieniony hotel), przez co informacja będzie lepiej widoczna dla użytkowników.
 
 \subsection{Pracownik}
 
@@ -51,11 +59,11 @@ Administrator będzie zarządzał również przebiegiem samej konferencji. Po pi
     \label{fig:pracownik}
 \end{figure}
 
-Pracownik będzie miał dostęp do wszystkich paneli w systemie. Po zalogowaniu do systemu wybierze z listy rozwijanej konferencję i zostanie przeniesiony do panelu aktualności, którego będzie miał możliwość podglądu. Stąd będzie mógł przejść do ustawień swojego konta gdzie będzie mógł między innymi dodać konto rodziny oraz zmienić swoje dane teleadresowe.  \newline
-Pracownik będzie miał możliwość dodania propozycji wycieczki która trafi do akceptacji przez administratora, będzie również mógł zgłosić chęć udziału w wycieczkach zaproponowanych przez innych użytkowników. \newline
+Pracownik będzie miał dostęp do wszystkich paneli w systemie. Będzie mógł komentowac wycieczki i zapisywac się na nie. \newline
 W panelu tematów luźnych będzie mógł dodać propozycję swojego tematu która trafi do akceptacji przez administratora, wiąże się to z tym że w szczególności przez dwóch pracowników może zostać zaproponowany podobny temat, wtedy administrator będzie mógł wstawić je do kalendarza w tym samym miejscu, albo jeden po drugim. \newline
-Najbardziej rozbudowaną funkcjonalnością pracownika będzie panel zarządzania artykułami, tutaj pracowniik będzie zgłaszał temat swojego arytkułu, następnie pisał go przy użyciu odpowiedniego szablonu, później artykuł trafi do recenzenta. Recenzentami arytkułów będą sami pracownicy, system będzie przydzielał do każdego artykułu recenzenta przy użyciu odpowiedniego algorytmu.
-
+Najbardziej rozbudowaną funkcjonalnością pracownika będzie panel zarządzania artykułami, tutaj pracowniik będzie zgłaszał temat swojego arytkułu, następnie pisał go przy użyciu odpowiedniego szablonu, później artykuł trafi do recenzenta. System będzie przydzielał do każdego artykułu recenzenta przy użyciu odpowiedniego algorytmu. \newline
+Pracownikowi zostanie również dana możliwość dodania dowolnej liczby kont typu rodzina pracownika. \newline
+Jedną z ważniejszych funkcjonalności pracownika jest zglaszanie propozycji miejsca konferencji, pracownik poprzez system może również komentować i oceniać propozycje konferencji innych pracowników
 
 \subsection{Rodzina pracownika}
 
@@ -66,8 +74,30 @@ Najbardziej rozbudowaną funkcjonalnością pracownika będzie panel zarządzani
     \label{fig:rodzina}
 \end{figure}
 
-Użytkownik konta rodzina pracownika będzie miał dostęp jedynie do modułu wycieczkowego oraz podgląd panelu aktualności. Po zalogowaniu wybierze z listy rozwijanej konferencję i zostanie przeniesiony do panelu aktualności, którego to będzie miał jedynie podgląd. Z panelu aktualności użytkownik może przejść do ustawień swojego konta, gdzie może zarządzać członkami swojej rodziny oraz zmieniać na przykład swoje dane kontaktowe. \newline
-Najciekawszym panelem dla rodziny pracownika będzie moduł wycieczkowy, użytkownik będzie miał możliwość zgłoszenia pomysłu swojej wycieczki, pomysł taki trafi do administratora w celu akceptacji przed pojawieniem się w panelu. Użytkownik będzie miał również możliwość zgłoszenia chęci udziału w propozycjach innych wycieczek.
+Użytkownik konta rodzina pracownika będzie miał dostęp do modułu wycieczkowego, podgląd panelu aktualności, strony głównej konferencji, oraz harmonogramu konferencji . \newline
+Najciekawszym panelem dla rodziny pracownika będzie moduł wycieczkowy, gdzie będzie mógł komentować wycieczki, będzie miał również możliwość zgłoszenia chęci udziału w wycieczkach.
+
+\subsection{Zarządca wycieczek}
+
+\begin{figure}[!tb]
+    \centering
+    \includegraphics{zarzadcawycieczek.jpg}
+    \caption{Model diagramu przypadków użycia roli zarządca wycieczek.}
+    \label{fig:zarzadcawycieczek}
+\end{figure}
+
+Rola ta może zostać nadana komuś z grona pracowników. Zadaniem tej osoby będzie zgłaszanie wycieczek które będą następnie przechodziły do akceptacji przez administratora i będą widoczne w panelu wycieczkowym. Będzie odpowiedzialny za aktualizację informacji. Jego rolą będzie również dodawanie lokalów gastronomicznych, atrakcji turystycznych oraz placówek medycznych w miejscu konferencji.
+
+\subsection{Recenzent}
+
+\begin{figure}[!tb]
+    \centering
+    \includegraphics{recenzent.jpg}
+    \caption{Model diagramu przypadków użycia użytkownika recenzent.}
+    \label{fig:recenzent}
+\end{figure}
+
+Będzie to osoba która nie będzie brała udziału w konferencji, będzie jedynie recenzowała artykuł pracownika. Będzie przydzielany do artykułu przez system który za pomoca dopasowania specjalności recenzenta do tematyki artykułu znajdzie najlepszego kadydata do recenzowania. Recenzent nie będzie nic wiedział o autorze artykułu który recenzuje.
 
 \section{Historia Zmian}
 
@@ -78,4 +108,5 @@ Najciekawszym panelem dla rodziny pracownika będzie moduł wycieczkowy, użytko
 11 mar 2015          &Błądek Piotr          &  Dodanie historii zmian            \\ \hline
 13 mar 2015          &Błądek Piotr          &  Dodanie dokumentów powiązanych i przypadków użycia            \\ \hline
 13 mar 2015          &Błądek Piotr          &  Dodanie spisu rysunków            \\ \hline
+29 mar 2015          &Błądek Piotr          &  Dodanie nowych ról, aktualizacja istniejących            \\ \hline
 \end{tabularx}
