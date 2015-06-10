@@ -6,7 +6,8 @@
   <packageImport xmi:id="_XrSf4M9wEeSEae5io1wKPg">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Class" xmi:id="_xsWf8M9uEeSEae5io1wKPg" name="Użytkownik" visibility="package" isAbstract="true">
+  <packagedElement xmi:type="uml:Class" xmi:id="_xsWf8M9uEeSEae5io1wKPg" name="Człowiek" visibility="package" isAbstract="true">
+    <generalization xmi:id="_WfU-8AlLEeWGuam6RXqbEw" general="_GYCLQAlLEeWGuam6RXqbEw"/>
     <ownedAttribute xmi:id="_15VdwM9uEeSEae5io1wKPg" name="imię" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_x_qoEM9vEeSEae5io1wKPg" value="1"/>
@@ -18,46 +19,101 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hJ5IUM9wEeSEae5io1wKPg" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hJ5IUc9wEeSEae5io1wKPg" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_JWgBEM9vEeSEae5io1wKPg" name="login" visibility="private">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iomiAM9wEeSEae5io1wKPg" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iomiAc9wEeSEae5io1wKPg" value="1"/>
-    </ownedAttribute>
     <ownedAttribute xmi:id="_LNsMMM9vEeSEae5io1wKPg" name="adresEmail" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_je7tEM9wEeSEae5io1wKPg" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_je7tEc9wEeSEae5io1wKPg" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_NcSKsM9vEeSEae5io1wKPg" name="hasło" visibility="private">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kamrIM9wEeSEae5io1wKPg" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kamrIc9wEeSEae5io1wKPg" value="1"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_t6bM0M92EeS3ZZ3bUgtciw" name="jestAdministratorem" visibility="private" isStatic="true" isReadOnly="true">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_t6bz4M92EeS3ZZ3bUgtciw"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_t6bz4c92EeS3ZZ3bUgtciw" value="1"/>
-      <defaultValue xmi:type="uml:LiteralString" xmi:id="_py_A4M93EeS3ZZ3bUgtciw" value="false"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_DFWdAM94EeS3ZZ3bUgtciw" name="jestPracownikiem" isStatic="true" isReadOnly="true">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DFWdAc94EeS3ZZ3bUgtciw"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DFWdAs94EeS3ZZ3bUgtciw" value="1"/>
-      <defaultValue xmi:type="uml:LiteralString" xmi:id="_DFWdA894EeS3ZZ3bUgtciw" value="false"/>
-    </ownedAttribute>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_N1vvcAlKEeWGuam6RXqbEw" name="Użytkownik" visibility="package" isAbstract="true">
+      <ownedAttribute xmi:id="_N1vvcQlKEeWGuam6RXqbEw" name="imię" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_N1vvcglKEeWGuam6RXqbEw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_N1vvcwlKEeWGuam6RXqbEw" value="1"/>
+        <defaultValue xmi:type="uml:StringExpression" xmi:id="_N1vvdAlKEeWGuam6RXqbEw" name="String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_N1vvdQlKEeWGuam6RXqbEw" name="nazwisko" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_N1vvdglKEeWGuam6RXqbEw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_N1vvdwlKEeWGuam6RXqbEw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_N1vveAlKEeWGuam6RXqbEw" name="login" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_N1vveQlKEeWGuam6RXqbEw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_N1vveglKEeWGuam6RXqbEw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_N1vvewlKEeWGuam6RXqbEw" name="adresEmail" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_N1vvfAlKEeWGuam6RXqbEw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_N1vvfQlKEeWGuam6RXqbEw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_N1vvfglKEeWGuam6RXqbEw" name="hasło" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_N1vvfwlKEeWGuam6RXqbEw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_N1vvgAlKEeWGuam6RXqbEw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_N1vvgQlKEeWGuam6RXqbEw" name="jestAdministratorem" visibility="private" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_N1vvgglKEeWGuam6RXqbEw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_N1vvgwlKEeWGuam6RXqbEw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_N1vvhAlKEeWGuam6RXqbEw" value="false"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_N1vvhQlKEeWGuam6RXqbEw" name="jestPracownikiem" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_N1vvhglKEeWGuam6RXqbEw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_N1vvhwlKEeWGuam6RXqbEw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_N1vviAlKEeWGuam6RXqbEw" value="false"/>
+      </ownedAttribute>
+    </nestedClassifier>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_QEmzsAlKEeWGuam6RXqbEw" name="Użytkownik" visibility="package" isAbstract="true">
+      <ownedAttribute xmi:id="_QEmzsQlKEeWGuam6RXqbEw" name="imię" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QEmzsglKEeWGuam6RXqbEw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QEmzswlKEeWGuam6RXqbEw" value="1"/>
+        <defaultValue xmi:type="uml:StringExpression" xmi:id="_QEmztAlKEeWGuam6RXqbEw" name="String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_QEmztQlKEeWGuam6RXqbEw" name="nazwisko" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QEmztglKEeWGuam6RXqbEw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QEmztwlKEeWGuam6RXqbEw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_QEmzuAlKEeWGuam6RXqbEw" name="login" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QEmzuQlKEeWGuam6RXqbEw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QEmzuglKEeWGuam6RXqbEw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_QEmzuwlKEeWGuam6RXqbEw" name="adresEmail" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QEmzvAlKEeWGuam6RXqbEw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QEmzvQlKEeWGuam6RXqbEw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_QEmzvglKEeWGuam6RXqbEw" name="hasło" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QEmzvwlKEeWGuam6RXqbEw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QEmzwAlKEeWGuam6RXqbEw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_QEmzwQlKEeWGuam6RXqbEw" name="jestAdministratorem" visibility="private" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QEmzwglKEeWGuam6RXqbEw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QEmzwwlKEeWGuam6RXqbEw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_QEmzxAlKEeWGuam6RXqbEw" value="false"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_QEmzxQlKEeWGuam6RXqbEw" name="jestPracownikiem" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QEmzxglKEeWGuam6RXqbEw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QEmzxwlKEeWGuam6RXqbEw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_QEmzyAlKEeWGuam6RXqbEw" value="false"/>
+      </ownedAttribute>
+    </nestedClassifier>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_qLqDwM9wEeSEae5io1wKPg" name="Pracownik">
     <generalization xmi:id="_irqfQM9_EeS3ZZ3bUgtciw" general="_KA0WIM9_EeS3ZZ3bUgtciw"/>
-    <ownedAttribute xmi:id="_14GDcM91EeS3ZZ3bUgtciw" name="specjalizacje" visibility="private" type="_XwdhgM91EeS3ZZ3bUgtciw">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_14HRkM91EeS3ZZ3bUgtciw"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_14HRkc91EeS3ZZ3bUgtciw" value="*"/>
-    </ownedAttribute>
     <ownedAttribute xmi:id="_t16q0M93EeS3ZZ3bUgtciw" name="jestPracownikiem" visibility="private" isStatic="true" isReadOnly="true">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_t17R4M93EeS3ZZ3bUgtciw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_t17R4c93EeS3ZZ3bUgtciw" value="1"/>
       <defaultValue xmi:type="uml:LiteralString" xmi:id="_5DA1YM93EeS3ZZ3bUgtciw" value="true"/>
     </ownedAttribute>
+    <interfaceRealization xmi:id="_jhYDgAlMEeWGuam6RXqbEw" client="_qLqDwM9wEeSEae5io1wKPg" supplier="_oQodYAlLEeWGuam6RXqbEw" contract="_oQodYAlLEeWGuam6RXqbEw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_WP2AIM9xEeSEae5io1wKPg" name="AdministratorSystemu">
     <generalization xmi:id="_jMkz8M9_EeS3ZZ3bUgtciw" general="_qLqDwM9wEeSEae5io1wKPg"/>
@@ -94,6 +150,9 @@
     <interfaceRealization xmi:id="_BNlwgM-AEeS3ZZ3bUgtciw" client="_H6uCwM9zEeS3ZZ3bUgtciw" supplier="_7A6y4M9_EeS3ZZ3bUgtciw" contract="_7A6y4M9_EeS3ZZ3bUgtciw"/>
     <ownedOperation xmi:id="_nFZoAM9xEeSEae5io1wKPg" name="stwórzKonferencję"/>
     <ownedOperation xmi:id="_4SkeoM9xEeSEae5io1wKPg" name="wybierzKonferencję"/>
+    <ownedOperation xmi:id="_3-DjQAlxEeWGuam6RXqbEw" name="dodajUżytkownika"/>
+    <ownedOperation xmi:id="_7QztcAlxEeWGuam6RXqbEw" name="dodajRecenzenta"/>
+    <ownedOperation xmi:id="_Gn13IAlyEeWGuam6RXqbEw" name="złóżWniosekOKonto"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_qHU2AM9zEeS3ZZ3bUgtciw" name="Harmonogram">
     <ownedAttribute xmi:id="_BzU-AM-EEeS3ZZ3bUgtciw" name="wycieczki" visibility="private" type="_LpKjEM92EeS3ZZ3bUgtciw" aggregation="composite">
@@ -181,12 +240,18 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XRHWQM95EeS3ZZ3bUgtciw" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XRHWQc95EeS3ZZ3bUgtciw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_iweDkM97EeS3ZZ3bUgtciw" name="recenzent" visibility="private" type="_qLqDwM9wEeSEae5io1wKPg">
+    <ownedAttribute xmi:id="_iweDkM97EeS3ZZ3bUgtciw" name="recenzent" visibility="private" type="_jG1SAAlLEeWGuam6RXqbEw">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iwf4wM97EeS3ZZ3bUgtciw" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iwf4wc97EeS3ZZ3bUgtciw" value="1"/>
     </ownedAttribute>
+    <ownedAttribute xmi:id="_p9RFsAlIEeWGuam6RXqbEw" name="autor" visibility="private" type="_qLqDwM9wEeSEae5io1wKPg"/>
     <ownedOperation xmi:id="_tSrdEM-GEeS3ZZ3bUgtciw" name="recenzuj"/>
     <ownedOperation xmi:id="_uZ0EQM-GEeS3ZZ3bUgtciw" name="popraw"/>
+    <ownedOperation xmi:id="_cu8jEAlwEeWGuam6RXqbEw" name="odrzuć">
+      <ownedParameter xmi:id="_eV-yUAlwEeWGuam6RXqbEw" name="powód">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_KA0WIM9_EeS3ZZ3bUgtciw" name="CzłonekRodziny">
     <generalization xmi:id="_hufFUM9_EeS3ZZ3bUgtciw" general="_xsWf8M9uEeSEae5io1wKPg"/>
@@ -195,6 +260,7 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MwUCQc9_EeS3ZZ3bUgtciw" value="1"/>
     </ownedAttribute>
     <interfaceRealization xmi:id="_sKgYQM9_EeS3ZZ3bUgtciw" client="_KA0WIM9_EeS3ZZ3bUgtciw"/>
+    <interfaceRealization xmi:id="_uhKcwAlKEeWGuam6RXqbEw" client="_KA0WIM9_EeS3ZZ3bUgtciw"/>
     <ownedOperation xmi:id="_4HYXwM9wEeSEae5io1wKPg" name="dodajCzłonkaRodziny"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Interface" xmi:id="_7A6y4M9_EeS3ZZ3bUgtciw" name="ZarządcaRól">
@@ -212,6 +278,16 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Interface" xmi:id="_Uu4l4M-AEeS3ZZ3bUgtciw" name="ZarządcaArtykułów">
     <ownedOperation xmi:id="_X53tcM97EeS3ZZ3bUgtciw" name="rozdzialArtykuły"/>
+    <ownedOperation xmi:id="_2lGv8AlIEeWGuam6RXqbEw" name="zgłośArtykół">
+      <ownedParameter xmi:id="_6gEwsAlIEeWGuam6RXqbEw" name="artykuł" type="__uEisM94EeS3ZZ3bUgtciw"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_rKVOkAlwEeWGuam6RXqbEw" name="głosuj">
+      <ownedParameter xmi:id="_sLOq4AlwEeWGuam6RXqbEw" name="głosujący" type="_qLqDwM9wEeSEae5io1wKPg"/>
+      <ownedParameter xmi:id="_wUEvkAlwEeWGuam6RXqbEw" name="artykuł" type="__uEisM94EeS3ZZ3bUgtciw"/>
+      <ownedParameter xmi:id="_zmbRIAlwEeWGuam6RXqbEw" name="ocena">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_ev1GYM-AEeS3ZZ3bUgtciw" name="artykułsToZarządcaArtykułóws" memberEnd="_ev1GYc-AEeS3ZZ3bUgtciw _ev1tcs-AEeS3ZZ3bUgtciw" navigableOwnedEnd="_ev1GYc-AEeS3ZZ3bUgtciw _ev1tcs-AEeS3ZZ3bUgtciw">
     <ownedEnd xmi:id="_ev1GYc-AEeS3ZZ3bUgtciw" name="artykułs" type="__uEisM94EeS3ZZ3bUgtciw" association="_ev1GYM-AEeS3ZZ3bUgtciw">
@@ -299,6 +375,58 @@
     <ownedEnd xmi:id="_ODtVEs-FEeS3ZZ3bUgtciw" name="wycieczkas" type="_LpKjEM92EeS3ZZ3bUgtciw" association="_ODsuAM-FEeS3ZZ3bUgtciw">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ODt8IM-FEeS3ZZ3bUgtciw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ODt8Ic-FEeS3ZZ3bUgtciw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_GYCLQAlLEeWGuam6RXqbEw" name="Użytkownik">
+    <ownedAttribute xmi:id="_JWgBEM9vEeSEae5io1wKPg" name="login" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iomiAM9wEeSEae5io1wKPg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iomiAc9wEeSEae5io1wKPg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_NcSKsM9vEeSEae5io1wKPg" name="hasło" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kamrIM9wEeSEae5io1wKPg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kamrIc9wEeSEae5io1wKPg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_t6bM0M92EeS3ZZ3bUgtciw" name="jestAdministratorem" visibility="private" isStatic="true" isReadOnly="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_t6bz4M92EeS3ZZ3bUgtciw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_t6bz4c92EeS3ZZ3bUgtciw" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_py_A4M93EeS3ZZ3bUgtciw" value="false"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_DFWdAM94EeS3ZZ3bUgtciw" name="jestPracownikiem" isStatic="true" isReadOnly="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DFWdAc94EeS3ZZ3bUgtciw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DFWdAs94EeS3ZZ3bUgtciw" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_DFWdA894EeS3ZZ3bUgtciw" value="false"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_jG1SAAlLEeWGuam6RXqbEw" name="Recenzent">
+    <generalization xmi:id="_lCnpQAlLEeWGuam6RXqbEw" general="_xsWf8M9uEeSEae5io1wKPg"/>
+    <interfaceRealization xmi:id="_rgu8MAlLEeWGuam6RXqbEw" client="_jG1SAAlLEeWGuam6RXqbEw" supplier="_oQodYAlLEeWGuam6RXqbEw" contract="_oQodYAlLEeWGuam6RXqbEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_oQodYAlLEeWGuam6RXqbEw" name="RacenzentInterfejs">
+    <ownedAttribute xmi:id="_14GDcM91EeS3ZZ3bUgtciw" name="specjalizacje" visibility="private" type="_XwdhgM91EeS3ZZ3bUgtciw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_14HRkM91EeS3ZZ3bUgtciw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_14HRkc91EeS3ZZ3bUgtciw" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_B3PIgAlqEeWGuam6RXqbEw" name="Komentarz">
+    <ownedAttribute xmi:id="_PXHOAAlqEeWGuam6RXqbEw" name="treść" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_U5HeAAlqEeWGuam6RXqbEw" name="artyuł" visibility="private" type="__uEisM94EeS3ZZ3bUgtciw"/>
+    <ownedAttribute xmi:id="_aTbxoAlqEeWGuam6RXqbEw" name="autorKomentarza" visibility="private" type="_jG1SAAlLEeWGuam6RXqbEw"/>
+    <ownedAttribute xmi:id="_euCUsAlqEeWGuam6RXqbEw" name="wystawiono" visibility="private"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qMwawAlqEeWGuam6RXqbEw" memberEnd="_qMwawQlqEeWGuam6RXqbEw _qM9PEAlqEeWGuam6RXqbEw" navigableOwnedEnd="_qMwawQlqEeWGuam6RXqbEw _qM9PEAlqEeWGuam6RXqbEw">
+    <ownedEnd xmi:id="_qMwawQlqEeWGuam6RXqbEw" name="komentarzs" type="_B3PIgAlqEeWGuam6RXqbEw" association="_qMwawAlqEeWGuam6RXqbEw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qM8oAAlqEeWGuam6RXqbEw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qM8oAQlqEeWGuam6RXqbEw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_qM9PEAlqEeWGuam6RXqbEw" name="artykułs" type="__uEisM94EeS3ZZ3bUgtciw" association="_qMwawAlqEeWGuam6RXqbEw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qNIOMAlqEeWGuam6RXqbEw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qNIOMQlqEeWGuam6RXqbEw" value="*"/>
     </ownedEnd>
   </packagedElement>
 </uml:Model>
