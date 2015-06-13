@@ -1,20 +1,4 @@
-#wersja alpha
-
-Jako pracownik zakładu chcę móc zgłosić swoją pracę do udziału w konferencji. 
-
-Jako zgłaszający pracę chcę znać uwagi recenzenta który zwrócił mi ją do poprawy tak abym mógł wyprowadzić poprawki. 
-
-Jako zgłaszający pracę chcę mieć możliwość odpowiedzi na przedstawione mi uwagi jeżeli praca jest zwracana mi do poprawki. 
-
-Jako zgłaszający i oceniający pracę chcemy mieć możliwość dwukierunkowej komunikacji odnośne danej pracy. 
-
-Jako zgłaszający temat pracy do akceptacji przez administratora chcę znać powód jego odrzucenia. TOREMOVE
-
-Jako użytkownik systemu chcę móc anonimowo głosować na najciekawszą pracę. 
-
-Jako użytkownik systemu chcę zobaczyć ranking najciekawszych prac. 
-
-Jako użytkownik systemu chcę łatwo uzyskać podstawowe informacje organizacyjne o bieżącej konferencji ( kiedy, gdzie ) 
+Administrator:
 
 Jako administrator chcę zobaczyć listę kont w systemie. 
 
@@ -22,79 +6,108 @@ Jako administrator chcę założyć konto w systemie.
 
 Jako administrator chcę edytować konto w systemie. 
 
-Jako administrator chcę wygenerować  hasło dla użytkownika.  
+Jako administrator chcę wygenerować hasło dla użytkownika.  
 
 Jako administrator chcę zamknąć konto użytkownika.  
 
-Jako administrator chcę usunąć konto użytkownika. 
-
-Jako użytkownik chcę poprosić o wygenerowanie dla mnie nowego hasła ponieważ utraciłem obecne.
-
-Jako użytkownik chcę założyć konto rodzinie.
-
-Jako rodzina chcę złożyć prośbę o otwarcie konta w systemie.
-
-Jako użytkownik chcę zaakceptować prośbę rodziny o założenie konta.
-
-Jako użytkownik chcę zobaczyć listę wycieczek dla bieżącej konferencji.
-
-Jako użytkownik chcę 
-
-
-Jako członek rodziny chcę zobaczyć listę wycieczek.
-Jako członek rodziny chcę zobaczyć szczegóły wycieczki.
-
-Jako członek rodziny chcę zobaczyć opis formalny konferencji.
-
-Jako członek rodziny chcę zobaczyć harmonogram konferencji.
-
-Jako członek rodziny chcę zapisać się na wycieczkę.
-
-Jako członek rodziny chcę zobaczyć listę lokalnych atrakcji.
-
-Jako członek rodziny chcę zapisać się na lokalną atrakcję.
-
-
-
-
-
-
-
+Jako administrator chcę usunąć konto użytkownika.
 
 Jako administrator chcę wyznaczyć zarządcę wycieczek.
 
 Jako administrator chcę zaakceptować program wycieczki.
 
-Jako użytkownik chcę zamieścić komentarz odnosnie wycieczki.
+Jako administrator chcę ocenić postęp w procesie oceny pracy użytkownika.
 
-Jako użytkownik chcę się zapisać na wycieczkę.
-
-Jako użytkownik chcę zobaczyć listę lokalnych atrakcjii w miejscu konferencji.
-
-Jako użytkownik chcę się zapisać na lokalną atrakcję.
-
-Jako użytkownik chcę zobaczyć spis placówek medycznych w miejscu konferencji.
-
-Jako użytkownik chcę się zapoznać z ofertą gastronomiczną.
+Jako administrator chcę wziąć udział w procesie oceny pracy użytkownika.
 
 
 
-Jako administrator chcę móc ocenić postęp w procesie oceny pracy użytkownika.
 
-Jako administraor chcę wziąć udział w procesie oceny pracy użytkownika.
 
+Zgłaszający artykuł:
+
+Jako zgłaszający artykuł chcę znać uwagi recenzenta który zwrócił mi go do poprawy tak abym mógł wyprowadzić poprawki. 
+
+Jako zgłaszający artykuł chcę mieć możliwość odpowiedzi na przedstawione mi uwagi jeżeli artykuł jest zwracany mi do poprawki. 
+
+Jako zgłaszający i oceniający artykuł chcemy mieć możliwość dwukierunkowej komunikacji odnośne danego artykułu.
+
+
+
+
+
+Recenzent:
+
+Jako recenzent chcę ocenić artykuł.
+
+Jako recenzent chcę zaakceptować artykuł.
+
+
+
+
+
+Pracownik:
+
+Jako pracownik zakładu chcę zgłosić swój artykuł do udziału w konferencji. 
+
+Jako pracownik chcę anonimowo głosować na najciekawsze artykuły. 
+
+Jako pracownik chcę zobaczyć ranking najciekawszych artykułów. 
+
+Jako pracownik chcę założyć konto rodzinie.
 
 Jako pracownik chcę zobaczyć listę zaakceptowanych artykułów.
 
+Jako pracownik chcę zaproponować temat dyskusji dydaktycznej.
+
+Jako pracownik chcę zobaczyć zgłoszone tematy dyskusji dydaktycznych.
+
+Jako pracownik chcę zamieścić komentarz odnośnie tematu zgłoszonego do dyskusji dydaktycznej.
+
+Jako pracownik chcę łatwo uzyskać podstawowe informacje organizacyjne o bieżącej konferencji;
+
+Jako pracownik chcę poprosić o wygenerowanie dla mnie nowego hasła ponieważ utraciłem obecne.
+
+Jako pracownik chcę zobaczyć listę wycieczek.
+
+Jako pracownik chcę zobaczyć szczegóły wycieczki.
+
+Jako pracownik chcę zamieścić komentarz odnosnie wycieczki.
+
+Jako pracownik chcę zapisać się na wycieczkę.
+
+Jako pracownik chcę zobaczyć listę lokalnych atrakcjii w miejscu konferencji.
+
+Jako pracownik chcę zapisać się na udział w lokalnej atrakcji.
+
+Jako pracownik chcę zobaczyć spis placówek medycznych w miejscu konferencji.
+
+Jako pracownik chcę zapoznać się z ofertą gastronomiczną.
 
 
 
-Jako pracownik zakładu chcę móc zaproponować temat dyskusji dydaktycznej.
-
-Jako pracownik zakładu chcę móc zobaczyć zgłoszone tematy dyskusjii dydaktycznych.
-
-Jako pracownik zakładu chcę móc zamieścić komentarz odnośnie tematu zgłoszonego do dyskusji dydaktycznej.
 
 
+Członek rodziny:
 
+Jako członek rodziny chcę zobaczyć listę wycieczek.
 
+Jako członek rodziny chcę zobaczyć szczegóły wycieczki.
+
+Jako członek rodziny chcę zamieścić komentarz odnosnie wycieczki.
+
+Jako członek rodziny chcę zapisać się na wycieczkę.
+
+Jako członek rodziny chcę zobaczyć listę lokalnych atrakcji w miejscu konferencji.
+
+Jako członek rodziny chcę zapisać się na udział w lokalnej atrakcji.
+
+Jako członek rodziny chcę zobaczyć opis formalny konferencji.
+
+Jako członek rodziny chcę zobaczyć harmonogram konferencji.
+
+Jako członek rodziny chcę zobaczyć spis placówek medycznych w miejscu konferencji.
+
+Jako członek rodziny chcę zapoznać się z ofertą gastronomiczną.
+
+Jako członek rodziny chcę poprosić o wygenerowanie dla mnie nowego hasła ponieważ utraciłem obecne.
