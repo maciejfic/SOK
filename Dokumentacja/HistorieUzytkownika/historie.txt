@@ -16,9 +16,9 @@ Jako administrator chcę wyznaczyć zarządcę wycieczek.
 
 Jako administrator chcę zaakceptować program wycieczki.
 
-Jako administrator chcę ocenić postęp w procesie oceny pracy użytkownika.
+Jako administrator chcę ocenić postęp w procesie oceny artykułu pracownika.
 
-Jako administrator chcę wziąć udział w procesie oceny pracy użytkownika.
+Jako administrator chcę wziąć udział w procesie oceny artykułu pracownika.
 
 
 
