@@ -1,7 +1,7 @@
 1. Uzasadnienie projektu
 
 Powstanie projektu jest odpowiedzią na potrzeby pracowników Instytutu Sterowania i Elektroniki Przemysłowej Politechniki Warszawskiej.
-Każdego roku organizowana jest konferencja instytutu mająca na celu podsumowanie osiągnieć dydaktycznych i naukowych oraz wyznaczanie nowych kierunków rozwoju. Dotychczasowy sposób organizacji od strony techniczno/formalnej ze względu na zmiany w sposobie pracy instytutu przestał się sprawdzać. W związku z tym postanowniono, że do celów organizacji konferencji powstanie dedykowany system informatyczny, który umożliwi dalsze funkcjonowanie w sprawny i prejrzysty sposób. 
+Każdego roku organizowana jest konferencja instytutu mająca na celu podsumowanie osiągnieć dydaktycznych i naukowych oraz wyznaczanie nowych kierunków rozwoju. Dotychczasowy sposób organizacji od strony techniczno/formalnej ze względu na zmiany w sposobie pracy instytutu przestał się sprawdzać. W związku z tym postanowniono, że do celów organizacji konferencji powstanie dedykowany system informatyczny, który umożliwi dalsze funkcjonowanie w sprawny i przejrzysty sposób. 
 
 2. Cele
 
