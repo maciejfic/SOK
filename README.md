@@ -16,10 +16,8 @@ System Obsługi Konferencji Naukowo-Dydaktycznej Instytutu Sterowania i Elektron
 - Trzeba się ustawić na jakieś spotkanie żeby ustalić jak kto to widzi
 
 # Skład zespołu
--[ Katarzyna G.]
 - Wojciech D.
 - Maciej F.
 - Piotr B.
 - Piotr B.
--[ Piotr G.]
 
