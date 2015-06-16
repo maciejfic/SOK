@@ -1,0 +1,109 @@
+\section{Cel dokumentu}
+\suppressfloats[t]
+
+Dokument ma na celu definicję
+wszystkich wymagań, jakie ma spełniać system.
+
+\section{Ostateczny opis wymagań}
+
+\subsection{Wstęp}
+System ma na celu ułatwienie i zautomatyzowanie procesu organizacji
+dorocznych konferencji instytutu. Podczas takiego wydarzenia pracownicy 
+wraz z członkami rodzin wyjeżdżają na kilka dni. Pracownicy w tym czasie
+uczestniczą w konferencjach przez nich przygotowanych prezentując własne
+artykuły wcześniej zrecenzowane przez osoby spoza instytutu. Rodziny 
+uczestniczą w wycieczkach. \par
+W przygotowaniach do konferencji będą uczestniczyli pracownicy,
+oraz członkowie ich rodzin wykorzystując System Obsługi Konferencji. Każda
+zainteresowana osoba będzie miała do niego dostęp i będzie brała udział
+w interesujących ją procesach przygotowujących konferencję.
+\subsection{Definicja wymagań funkcjonalnych}
+\subsubsection{Administrator}
+Administrator, jako osoba mająca absolutną kontrolę nad systemem, nad którą
+spoczywa odpowiedzialność za całościowe przygotowanie konferencji może 
+zarządzać innymi użytkownikami i konfiguracją systemu. \par
+Jedną z podstawowych ról administratora jest umożliwienie dostępu do
+Systemu pozostałym zainteresowanym. W tym celu Administrator ma możliwość 
+utworzyć konto odpowiedniej osobie naj jej wniosek lub z własnej 
+inicjatywy. Wyróżniamy 4 rodzaje kont użytkowników:
+\begin{description}
+    \item[Konto Administratora] \hfill \\
+        konto z pełnym dostępem do wszystkich funkcji systemu.
+        Do poprawnego działania aplikacji musi być aktywne co
+        najmniej jedno konto Administratora. To on przydziela uprawnienia,
+        zadania, role i dostępy pozostałym członkom.
+
+    \item[Konto Pracownika] \hfill \\
+        Każdy pracownik instytutu powinien posiadać to konto, 
+        o ile chce brać aktywny udział w Konferencji. Podstawowymi 
+        własnościami takiego konta, jest możliwość zgłoszenia swojego 
+        artykułu do recenzji i późniejszego poprowadzenia prelekcji.
+        Do konta pracowniczego dołączane są konta członków rodziny 
+        pracownika.
+
+    \item[Konto Członka rodziny] \hfill \\
+        Może należeć do jednej lub większej ilości osób. Musi być 
+        przypisane do dokładnie jednego pracownika. Nie daje dostępu do
+        naukowo-dydaktycznej części systemu.
+
+    \item[Dostęp Recenzenta] \hfill \\
+        Nie jest kontem w pełnym tego słowa znaczeniu, ponieważ
+        ma za zadanie dać możliwość uczestnictwa recenzentów w procesie
+        oceniania artykułu. System powinien działać w sposób przezroczysty
+        dla recenzenta, jednocześnie ukrywając tożsamość autora artykułu
+        i recenzenta przed nimi samymi.
+
+\end{description}
+Administrator powinien mieć też możliwość wyświetlenia listy wszystkich 
+kont w systemie i ich uprawnień. Ponadto dla każde wyświetlane konto
+może edytować. Oznacza to, że może edytować dane opisujące to konto,
+ustawić nowe hasło dla użytkownika, a także usunąć konto, lub je 
+zamknąć. \par
+Administrator w procesie oceny artykuły ma możliwość oddelegować 
+zarządzanie wycieczkami do innego użytkownika, oraz zaakceptować
+program poszczególnej wycieczki. \par
+W procesie oceny artykułu, administrator może ocenić postęp zaawansowania
+postępów oceny, może zaingerować w sam proces.\par
+\subsubsection{Ocena artykułu}
+Artykuł jest dokumentem napisanym przez pracownika, na temat którego
+w czasie konferencji ma zostać wygłoszona prelekcja. Powinien on zostać
+wcześniej zrecenzowany przez osobę zaznajomioną z tematem, o którym
+artykuł traktuje. Jednocześnie recenzent nie powinien znać tożsamości
+autora artykułu i vice versa. Z tego powodu Recenzentami są najczęściej
+osoby spoza instytutu. Proces recenzji artykułu polega na naprzemiennej
+wymianie uwag i sugestii pomiędzy recenzentem i autorem, nanoszeniu
+poprawek do momentu zaakceptowania artykułu przez recenzenta. 
+\subsubsection{Pracownik}
+Konto pracownicze daje dostęp do zasobów systemu ukierunkowanych na
+przygotowanie części merytorycznej konferencji. Każdy pracownik może 
+zgłosić swój artykuł, głosować na inne, oraz mieć podgląd na ranking 
+najwyżej ocenionych artykułów, które zostały akceptowane. \par
+Pracownik, jako osoba zainteresowana dyskusjami dydaktycznymi może 
+zgłaszać propozycje takich tematów, komentować inne propozycje.
+W kwestii wycieczek i atrakcji turystycznych Pracownik ma identyczne 
+uprawnienia jak Członek Rodziny.
+\subsubsection{Członek Rodziny}
+Członek Rodziny jest osobą towarzyszącą Pracownikowi podczas Konferencji.
+Pojedyncze konto Członka Rodziny może należeć jednocześnie do jednej lub
+kilku osób (np. matki i małego dziecka). Członek Rodziny ma pełen dostęp
+do części systemu odpowiedzialnej za organizację wycieczek i innych
+atrakcji poza naukowych. Może on wyświetlić listę wycieczek, zaproponować
+nową, wyświetlić jej szczegóły, zapisać się na atrakcję turystyczną,
+komentować. Dodatkowo może poznać ofertę gastronomiczną miejsc odwiedzanych
+podczas konferencji, wyświetlić harmonogram całej imprezy,
+oraz odzyskać zapomniane lub utracone hasło.
+
+\section{Opis ewolucji systemu}
+Kolejnym etapem życia systemu po przeanalizowaniu wymagań systemu, jest
+jego implementacja. System Obsługi Konferencji ma służyć zakładowi przez
+wiele lat i umożliwiać rozszerzanie jego funkcjonalności zależnie od 
+potrzeb.
+
+
+\section{Historia Zmian}
+
+\begin{tabularx}{\textwidth}{X|l|X}
+\hline
+\textbf{Data zmiany} & \textbf{Kto zmienił} & \textbf{Co zostało zmienione} \\ \hline
+16 czerwca 2015          & Wojciech Decker & Utworzenie dokumentu.         \\ \hline
+\end{tabularx}
